@@ -1,0 +1,88 @@
+{
+  "BAD_REQ": {
+    "code": "BAD_REQUEST",
+    "status": 400,
+    "statusText": "Bad Request",
+    "err": {
+      "msg": "Check Your Input. If you're seeing this, check your server configuration to receive correct data about the error."
+    },
+    "config": {
+      "adapter": [
+        "http",
+        "fetch"
+      ],
+      "data": "undefined",
+      "env": {
+        "Blob": {
+          "arguments": "undefined",
+          "caller": "undefined",
+          "name": "Blob",
+          "ACTIVE": false
+        }
+      },
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Authorization": "null",
+        "Content-Type": "application/json",
+        "Description": "",
+        "get": "",
+        "getStatus": "",
+        "getAuth": "",
+        "encoding": "",
+        "toJSON": ""
+      },
+      "method": "GET",
+      "timeout": -1,
+      "url": "https://staging.server.com",
+      "validationStatus": {
+        "name": "validationStatus",
+        "argument": "undefined",
+        "caller": "null",
+        "scope": {
+          "Module": "server.js",
+          "Global": "Window",
+          "document": "Document",
+          "location": "Location"
+        }
+      },
+      "message": "Request Failed With Status Code Of 400",
+      "name": "local-mod/err",
+      "req": {
+        "response": "{\"success\":false,\"message\":\"Bad-Request 1\"}",
+        "responseTxt": "{\"success\":false,\"message\":\"Bad-Request 1\"}",
+        "type": "",
+        "responseURL": "undefined",
+        "status": 400,
+        "statusText": "Bad Req",
+        "Prototype": {
+          "JSONHttpRequest": {
+            "SENT": false,
+            "DONE": "undefined",
+            "HEADERS_RESED": "undefined",
+            "UNSENT": "undefined",
+            "responseURL": "undefined",
+            "responseJSON": "",
+            "upload": "null"
+          },
+          "XMLHttpRequest": {
+            "SENT": false,
+            "DONE": "undefined",
+            "HEADERS_RESED": "undefined",
+            "UNSENT": "undefined",
+            "responseURL": "undefined",
+            "responseXML": "",
+            "upload": "null"
+          }
+        }
+      },
+      "res": {
+        "data": {
+          "message": "Bad Request 1",
+          "success": false
+        },
+        "status": 400,
+        "statusText": "Bad Request"
+      }
+    }
+  }
+}
