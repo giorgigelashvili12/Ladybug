@@ -82,7 +82,6 @@ const ac = async () => {
 
   console.log(`Applying server config: ${serverChoice}`);
 
-  // Here, you can customize this part to apply the selected server config
   console.log(`Server config ${serverChoice} applied.`);
 };
 
