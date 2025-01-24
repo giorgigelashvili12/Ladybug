@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "logging": {
+    "level": "info",
+    "output": "logs/ladybug.log"
+  },
+  "customPaths": {
+    "errorFilePath": "./error/v1/v1.json"
+  }
+}

@@ -10,6 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "inquirer": "^8.2.6"
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "express": "^4.21.2",
+    "inquirer": "^8.2.6",
+    "mongoose": "^8.9.5",
+    "yargs": "^17.7.2"
   }
 }
