@@ -1,0 +1,1 @@
+export const VERSION = 'V 0.0.1';

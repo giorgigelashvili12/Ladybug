@@ -17,7 +17,7 @@ const ignored: {[key: string]: boolean} = toObj([
 ])
 
 /**
- * @param {string} rawHeaders - The raw headers to convert 
+ * @param {string} raw - The raw headers to convert 
  * @returns {Object} - Headers parsed into an object
  */
 
